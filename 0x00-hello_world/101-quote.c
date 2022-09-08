@@ -2,7 +2,7 @@
 /**
  *main - print a string to standard error
  *Description: Using the main function
- *This program prints and that piece of art is useful" - Dora Korpar, 2015-10-19
+ *This program prints to stderr
  *Return: 0
  */
 int main(void)
