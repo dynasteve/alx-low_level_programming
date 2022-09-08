@@ -1,4 +1,9 @@
 #include <stdio.h>
+
+/**
+ *main - Using put to print a string
+ *Description: Using the main function 
+ */
 #include <string.h>
 int main(void)
 {
