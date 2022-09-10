@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- *main - prints alphabet
+ *main - prints alphabets in reverse
  *Description: Using the main function
  *This program prints to stderr
  *Return: 0
@@ -13,5 +13,6 @@ for (i = 'z'; i >= 'a'; i--)
 {
 putchar(i);
 }
+putchar("\n");
 return (0);
 }
