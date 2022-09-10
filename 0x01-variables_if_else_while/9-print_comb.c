@@ -8,24 +8,22 @@
  */
 int main(void)
 {
-	int i;
-	int comma = ',';
-	int space = ' ';
+int i;
+int comma = ',';
+int space = ' ';
 
-	for (i = '0'; i <= '9'; i++)
-	{
-		putchar(i);
+for (i = '0'; i <= '9'; i++)
+{
+putchar(i);
 
-		if (i < '9')
-		{
-			putchar(comma);
-			putchar(space);
-		}
-	}
-
-	putchar('\n');
-
-	return (0);
+if (i < '9')
+{
+putchar(comma);
+putchar(space);
+}
 }
 
+putchar('\n');
 
+return (0);
+}
