@@ -1,5 +1,6 @@
 #include "main.h"
 /**
+ *print_alphabet
  *main - prints _putchar to stdout
  *Description: Using the print_alphabet function
  *This program prints a - z
