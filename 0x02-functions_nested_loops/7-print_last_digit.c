@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 
 /**
  *print_last_digit - prints using _putchar to stdout
@@ -10,6 +11,6 @@
 
 int print_last_digit(int n)
 {
-int x = n % 10;
+int x = abs(n) % 10;
 return (x);
 }
