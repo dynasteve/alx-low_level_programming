@@ -8,8 +8,6 @@
 
 int _islower(int c)
 {
-/**int r;*/
-
 if (_islower(c) == 0)
 {
 return(0);
