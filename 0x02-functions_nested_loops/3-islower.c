@@ -1,4 +1,5 @@
 #include "main.h"
+#include <ctype.h>
 /**
  *_islower - prints using _putchar to stdout
  *Description: Using the _islower function
