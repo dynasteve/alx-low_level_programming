@@ -1,19 +1,19 @@
 #include "main.h"
 /**
- *print_alphabet_x10 - prints using _putchar to stdout
- *Description: Using the print_alphabet_x10 function
- *This program prints a - z 10 times
+ *_islower - prints using _putchar to stdout
+ *Description: Using the _islower function
+ *This program prints 0 or 1 for letters
  *Return: 0
  */
 
 int _islower(int c)
 {
-if (_islower(c) != 0)
+if (_islower(c) == 0)
 {
-return('1');
+return('0');
 }
 else
 {
-return('0');
+return('1');
 }
 }
