@@ -4,7 +4,7 @@
 /**
  *_abs - prints using _putchar to stdout
  *Description: Using the _abs function for args n
- *@n: Is the used arguement
+ *@x: Is the used arguement
  *This program prints absolute value of integer
  *Return: 0
  */
