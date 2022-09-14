@@ -9,26 +9,26 @@
 
 void jack_bauer(void)
 {
-int a;
-int b;
-int c;
-int d;
+int h = 0;
+int mins = 0;
+int h1 = 0;
+int mins1 = 0;
 
-for (a = '0'; a <= '2'; a++)
+while (h <= 23)
 {
-for (b = '0'; b <= '9'; b++)
+while (mins <= 59)
 {
-for(c = '0'; c <= '6'; c++)
-{
-for (d = '0'; d <= '9'; d++)
-{
-_putchar(d);
+h1 = h % 10;
+_putchar(h / 10 + '0');
+_putchar(h1 + '0');
+_putchar(':');
+_putchar(mins / 10 + '0');
+_putchar(mins1 + '0');
+mins++;
+_putchar('\n')
 }
-_putchar(c);
+h++;
+mins = 0;
 }
-_putchar(b);
-}
-_putchar(a);
-_putchar('\n');
-}
+
 }
