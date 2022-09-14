@@ -21,13 +21,13 @@ _putchar(' ');
 n--;
 }
 }
-else if (n < 97)
+else if (n < 98)
 {
 
 _putchar((n / 10) + '0');
 _putchar((n % 10) + '0');
 
-while(n <= 98)
+while(n <= 97)
 {
 _putchar(',');
 _putchar(' ');
