@@ -18,7 +18,7 @@ void print_to_98(int n)
     {
         for (ten = n / 10; ten <= 9; ten++)
         {
-            for (unit = 0; unit <= 9; unit++)
+            for (unit = n % 10; unit <= 9; unit++)
             {
                 _putchar(ten + '0');
                 _putchar(unit + '0');
