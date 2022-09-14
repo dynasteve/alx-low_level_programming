@@ -31,9 +31,9 @@ while(n <= 97)
 _putchar(',');
 _putchar(' ');
 
-if (n <= 10)
+if (n <= 9)
 {
-_putchar(' ');
+_putchar('');
 }
 else
 {
