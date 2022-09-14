@@ -15,7 +15,7 @@ int result;
 
 for (num = 0; num <= 9; num++)
 {
-_putchar(0);
+_putchar('0');
 
 for (multiplier = 0; multiplier <= 9; multiplier++)
 {
