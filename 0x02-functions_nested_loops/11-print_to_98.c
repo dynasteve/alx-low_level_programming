@@ -21,7 +21,7 @@ _putchar(' ');
 n--;
 }
 }
-else if (n < 98)
+else if (n < 98 && n < 81)
 {
 
 _putchar((n % 10) + '0');
