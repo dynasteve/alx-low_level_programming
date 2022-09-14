@@ -15,16 +15,18 @@ int multiplier;
 
 for (number = '0'; number <= '9'; number++)
 {
-for (multiplier = '0'; multiplier <= 9; multiplier++)
+for (multiplier = '0'; multiplier <= '9'; multiplier++)
 {
 _putchar(number * multiplier);
-if (multiplier != 9)
+if (multiplier != '9')
 {
-_putchar(', ');
+_putchar(',');
+_putchar(' ')
 }
 else
 {
-_putchar('$\n');
+_putchar('$');
+_putchar('\n')
 }
 }
 }
