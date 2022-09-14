@@ -20,7 +20,6 @@ void print_to_98(int n)
         {
             for (unit = 0; unit <= 9; unit++)
             {
-                _putchar(hundred + '0');
                 _putchar(ten + '0');
                 _putchar(unit + '0');
             }
