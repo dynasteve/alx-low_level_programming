@@ -14,7 +14,7 @@ void print_to_98(int n)
     int unit;
     int ten;
 
-    while (n <= 97)
+    while (n <= 98)
     {
         for (ten = n / 10; ten <= 9; ten++)
         {
@@ -30,8 +30,9 @@ void print_to_98(int n)
                     _putchar((n % 10) + '0');
                     _putchar(',');
                     _putchar(' ');
-                    n++;
                 }
+                
+                n++;
             }
         }
     }
