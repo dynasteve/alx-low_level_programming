@@ -23,12 +23,21 @@ n--;
 }
 else if (n < 98)
 {
+_putchar(n);
 while(n <= 98)
 {
-_putchar((n / 10) + '0');
-_putchar((n % 10) + '0');
 _putchar(',');
 _putchar(' ');
+
+if (n <= 9)
+{
+_putchar(' ');
+}
+else
+{
+_putchar((n / 10) + '0');
+}
+_putchar((n % 10) + '0');
 n++;
 }
 }
