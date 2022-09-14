@@ -31,7 +31,7 @@ while(n <= 97)
 _putchar(',');
 _putchar(' ');
 
-if (n <= 9)
+if (n <= 8)
 {
 }
 else
