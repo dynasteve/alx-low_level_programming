@@ -18,6 +18,7 @@ while (h <= 23)
 {
 while (mins <= 59)
 {
+mins1 = mins % 10;
 h1 = h % 10;
 _putchar(h / 10 + '0');
 _putchar(h1 + '0');
@@ -25,7 +26,7 @@ _putchar(':');
 _putchar(mins / 10 + '0');
 _putchar(mins1 + '0');
 mins++;
-_putchar('\n')
+_putchar('\n');
 }
 h++;
 mins = 0;
