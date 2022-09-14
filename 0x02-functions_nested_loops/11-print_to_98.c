@@ -14,7 +14,7 @@ void print_to_98(int n)
     int unit;
     int ten;
 
-    while (n <= 98)
+    while (n <= 97)
     {
         for (ten = n / 10; ten <= 9; ten++)
         {
