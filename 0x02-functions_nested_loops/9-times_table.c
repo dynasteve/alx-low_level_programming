@@ -13,7 +13,7 @@ int num;
 int multiplier;
 int result;
 
-for (num = 0; num <= '0'; num++)
+for (num = '0'; num <= '0'; num++)
 {
 _putchar(0);
 
