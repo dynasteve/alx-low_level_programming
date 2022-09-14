@@ -11,32 +11,37 @@
 
 void print_to_98(int n)
 {
-    int unit;
-    int ten;
+    int upper = 98;
 
-    while (n <= 98)
-    {
-        for (ten = n / 10; ten <= 9; ten++)
-        {
-            for (unit = n % 10; unit <= 9; unit++)
-            {
-                if (n == 98)
-                {
-                    _putchar(ten + '0');
-                    _putchar((n % 10) + '0');
-                    break;
-                    _putchar('\n');
-                }
-                else
-                {
-                    _putchar(ten + '0');
-                    _putchar((n % 10) + '0');
-                    _putchar(',');
-                    _putchar(' ');
-                }
-                
-                n++;
-            }
-        }
-    }
+	if (n > upper)
+	{
+		while (n >= upper)
+		{
+			if (n != upper)
+			{
+				printf("%d%s", n, ", ");
+			}
+			else
+			{
+				printf("%d", n);
+			}
+			n--;
+		}
+	}
+	else
+	{
+		while (n <= upper)
+		{
+			if (n != upper)
+			{
+				printf("%d%s", n, ", ");
+			}
+			else
+			{
+				printf("%d", n);
+			}
+			n++;
+		}
+	}
+	putchar(10);
 }
