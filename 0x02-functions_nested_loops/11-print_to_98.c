@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 
 /**
  *print_to_98 - prints using _putchar to stdout
@@ -10,81 +11,20 @@
 
 void print_to_98(int n)
 {
-if (n > 98)
-{
+    int unit;
+    int ten;
+    int hundred;
 
-_putchar((n % 100) + '0');
-_putchar((n / 10) + '0');
-_putchar((n % 10) + '0');
-
-while(n >= 97)
-{
-_putchar(',');
-_putchar(' ');
-
-if (n <= 9)
-{
-_putchar(' ');
-}
-else
-{
-_putchar(((n + 1) / 10) + '0');
-}
-_putchar(((n + 1) % 10) + '0');
-n--;
-}
-}
-else if (n < 98 && n < 81)
-{
-
-_putchar((n % 10) + '0');
-
-while(n <= 97)
-{
-_putchar(',');
-_putchar(' ');
-
-if (n <= 8)
-{
-}
-else
-{
-_putchar(((n + 1) / 10) + '0');
-}
-_putchar(((n + 1) % 10) + '0');
-n++;
-}
-}
-
-else if (n < 98 && n >= 81)
-{
-
-_putchar((n / 10) + '0');
-_putchar((n % 10) + '0');
-
-while(n <= 97)
-{
-_putchar(',');
-_putchar(' ');
-
-if (n <= 9)
-{
-_putchar(' ');
-}
-else
-{
-_putchar(((n + 1) / 10) + '0');
-}
-_putchar(((n + 1) % 10) + '0');
-n++;
-}
-}
-
-else
-{
-_putchar((n / 10) + '0');
-_putchar((n % 10) + '0');
-}
-
-_putchar('\n');
+    while (n <= 98)
+    {
+        for (ten = 0; ten <= 9; ten++)
+        {
+            for (unit = 0; unit <= 9; unit++)
+            {
+                _putchar(hundred + '0');
+                _putchar(ten + '0');
+                _putchar(unit + '0');
+            }
+        }
+    }
 }
