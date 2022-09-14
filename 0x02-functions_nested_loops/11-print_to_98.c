@@ -33,7 +33,6 @@ _putchar(' ');
 
 if (n <= 9)
 {
-_putchar(((n + 1) % 10) + '0');
 }
 else
 {
