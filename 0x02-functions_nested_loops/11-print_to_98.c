@@ -13,7 +13,6 @@ void print_to_98(int n)
 {
     int unit;
     int ten;
-    int hundred;
 
     while (n <= 98)
     {
