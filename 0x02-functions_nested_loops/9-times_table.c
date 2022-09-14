@@ -24,7 +24,7 @@ _putchar(' ');
 
 result = num * multiplier;
 
-if (result != 9)
+if (result <= 9)
 {
 _putchar(' ');
 }
