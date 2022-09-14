@@ -13,18 +13,18 @@ int num;
 int multiplier;
 int result;
 
-for (num = '0'; num <= '0'; num++)
+for (num = 0; num <= 0; num++)
 {
 _putchar(0);
 
-for (multiplier = '0'; multiplier <= '0'; multiplier++)
+for (multiplier = 0; multiplier <= 0; multiplier++)
 {
 _putchar(',');
 _putchar(' ');
 
 result = num * multiplier;
 
-if (result <= '9')
+if (result <= 9)
 {
 _putchar(' ');
 }
