@@ -20,8 +20,11 @@ void print_to_98(int n)
         {
             for (unit = n % 10; unit <= 9; unit++)
             {
-                if (n == 97)
+                if (n == 98)
                 {
+                    _putchar(ten + '0');
+                    _putchar((n % 10) + '0');
+                    break;
                     _putchar('\n');
                 }
                 else
