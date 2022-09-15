@@ -2,7 +2,7 @@
 
 /**
  * main - tests function that prints if integer is positive or negative
- * Description: Using the main function
+ * Description: Using the tdmain function
  * Return: 0
  */
 
