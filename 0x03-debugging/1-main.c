@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 /**
- * main - causes an infinite loop
- * Description: Using the main function
- * Return: 0
- */
+* main - causes an infinite loop
+* Description: Using the main function
+* Return: 0
+*/
 
 int main(void)
 {
