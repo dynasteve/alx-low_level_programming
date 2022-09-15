@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * main - creates an infinite loop
  * Description: Using the main function
@@ -18,5 +19,6 @@ i = 0;
  * putchar(i);
  * }
  */
+
 printf("Infinite loop avoided! \\o/\n");
 }
