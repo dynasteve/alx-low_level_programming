@@ -14,7 +14,8 @@ int count = 0;
 if (n == 0)
 {
 count = 1;
-} else
+} 
+else
 {
 while (n != 0)
 {
@@ -25,10 +26,12 @@ count++;
 if (count == 3)
 {
 printf(" ");
-} else if (count == 2)
+} 
+else if (count == 2)
 {
 printf("  ");
-} else if (count == 1)
+} 
+else if (count == 1)
 {
 printf("   ");
 }
@@ -54,14 +57,15 @@ while (j <= n)
 {
 if (j > 0)
 {
-    print_space(i * j);
+print_space(i * j);
 }
 if (j < n)
 {
-    printf("%d,", i * j);
-} else
+printf("%d,", i * j);
+} 
+else
 {
-    printf("%d", i * j);
+printf("%d", i * j);
 }
 j++;
 }
