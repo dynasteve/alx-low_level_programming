@@ -5,7 +5,6 @@
  * _strcat - Conactinates two strings
  * @dest: character value.
  * @src: character value
- *
  */
 
 char *_strcat(char *dest, char *src)
