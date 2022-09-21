@@ -5,6 +5,7 @@
  * _strncat - Conactinates two strings
  * @dest: character value.
  * @src: character value
+ * @n: size of memory
  * Return: returns pointer of @dest
  */
 
