@@ -6,7 +6,7 @@
  * @dest: character value.
  * @src: character value
  * 
- * Return: Returns pointer of @dest
+ * Return: returns pointer of @dest
  */
 
 char *_strcat(char *dest, char *src)
