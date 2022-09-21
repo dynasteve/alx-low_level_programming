@@ -2,7 +2,7 @@
 #include <string.h>
 
 /**
- * _strcat - Conactinates two strings
+ * _strncpy - Conactinates two strings
  * @dest: character value.
  * @src: character value
  * @n: size of memory
