@@ -3,7 +3,7 @@
 
 /**
  * string_toupper - Capitalizes strings
- * @str: Array
+ * @str: String
  * Return: returns string
  */
 
