@@ -19,7 +19,7 @@ for (i = 0; *(str + i); i++)
 {
 for (g = 0; g <= 9; g++)
 {
-if (arr1[g] == *str + i)
+if (arr1[g] == *(str + i))
 {
 *(str + i) = arr2[g];
 }
