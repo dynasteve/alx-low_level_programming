@@ -15,7 +15,7 @@ int g;
 char arr1[] = "AaEeOoTtLl";
 char arr2[] = "4433007711";
 
-for (i = 0; str + i; i++)
+for (i = 0; *(str + i); i++)
 {
 for (g = 0; g <= 9; g++)
 {
