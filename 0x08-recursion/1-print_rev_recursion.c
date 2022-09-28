@@ -28,6 +28,6 @@ reversing(a, i);
 }
 else
 {
-break;
+i = 0;
 }
 }
