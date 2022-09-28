@@ -1,7 +1,7 @@
 #include "main.h"
 #include <string.h>
 
-void printlen(int *x);
+void printlen(char len, int x)
 
 /**
   * _strlen_recursion - Prints a string length
