@@ -5,8 +5,7 @@ void reversing(char *a, int x);
 
 /**
   * _print_rev_recursion - Prints a string in reverse
-  * @a: @s passes to a for reversing
-  * @x: integer for iterations
+  * @s: the string
   *
   * Return: Nothing.
   */
