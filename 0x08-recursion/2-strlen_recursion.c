@@ -24,9 +24,8 @@ printlen(&x);
   * Return: Nothing.
   */
 
-void printlen(int x)
+void printlen(char len, int x)
 {
-char len[];
 int *ptr = NULL;
 sprintf(len, x);
 
@@ -34,9 +33,9 @@ ptr = len;
 
 if (x > 0)
 {
-_putchar(*(ptr + x--))
+_putchar(*(ptr + x-x+1))
 x--;
-printlen(x);
+printlen(len, x);
 }
 else
 {
