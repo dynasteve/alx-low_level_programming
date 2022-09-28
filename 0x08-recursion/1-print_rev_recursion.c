@@ -2,10 +2,15 @@
 #include <string.h>
 /**
   * _print_rev_recursion - Prints a string in reverse
-  * Reversing - This is the recursing function
   * @s: the string
   * @a: s passes to a for reversing
   * @x: integer for iterations
+  * 
+  * reversing - This is the recursing function
+  * @a: s passes to a for reversing
+  * @x: integer for iterations
+  * Description: Recurses itself to print the string in reverse order
+  *
   * Return: Nothing.
   */
 void reversing(char *a, int x);
