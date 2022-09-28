@@ -23,7 +23,7 @@ if (i >= 0)
 {
 _putchar(*(ptr + i));
 i--;
-reversing(s, i);
+reversing(a, i);
 }
 else
 {
