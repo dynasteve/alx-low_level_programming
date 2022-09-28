@@ -1,7 +1,7 @@
 #include "main.h"
 #include <string.h>
 
-void printlen(char len, int x);
+void printlen(char *len, int x);
 
 /**
   * _strlen_recursion - Prints a string length
@@ -13,7 +13,7 @@ void printlen(char len, int x);
 int _strlen_recursion(char *s)
 {
 int x = strlen(s);
-char len[];
+char *len;
 
 sprintf(len, x);
 
@@ -27,7 +27,7 @@ printlen(len, x);
   * Return: Nothing.
   */
 
-void printlen(char len, int x)
+void printlen(char *len, int x)
 {
 int *ptr = NULL;
 
