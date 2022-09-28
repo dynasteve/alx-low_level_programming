@@ -1,46 +1,14 @@
 #include "main.h"
-#include <string.h>
-
-void printlen(char *len, int x);
 
 /**
-  * _strlen_recursion - Prints a string length
-  * @s: the string
-  *
-  * Return: Nothing.
-  */
-
+* _strlen_recursion -> function to get length of string
+* @s: string param
+* Return: length of string
+*/
 int _strlen_recursion(char *s)
 {
-int x = strlen(s);
-char *len;
-
-sprintf(len, x);
-
-printlen(len, x);
-}
-
-/**
-  * printlen - Prints a string length
-  * @x: integer length of the string
-  *
-  * Return: Nothing.
-  */
-
-void printlen(char *len, int x)
-{
-int *ptr = NULL;
-
-ptr = len;
-
-if (x > 0)
-{
-_putchar(*(ptr + x-x+1))
-x--;
-printlen(len, x);
-}
-else
-{
-x = 0;
-}
+if (*s == '\0')
+return (0);
+s++;
+return (1 + _strlen_recursion(s));
 }
