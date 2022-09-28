@@ -2,8 +2,9 @@
 #include <string.h>
 /**
   * _print_rev_recursion - Prints a string in reverse
-  *
+  * reversing - This is the recursing function
   * @s: the string
+  * @a: s passes to a for reversing
   *
   * Return: Nothing.
   */
@@ -11,12 +12,12 @@ void reversing(char *a, int x);
 void _print_rev_recursion(char *s)
 {
 int x = strlen(s);
-reversing(s, x);
+reversing(s, x - 1);
 }
 
 void reversing(char *a, int x)
 {
-int i = x - 1;
+int i = x;
 char *ptr = NULL;
 ptr = a;
 if (i >= 0)
