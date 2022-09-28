@@ -12,7 +12,7 @@ void reversing(char *a, int x);
 void _print_rev_recursion(char *s)
 {
 int x = strlen(s);
-reversing(s, x - 2);
+reversing(s, x - 1);
 }
 
 void reversing(char *a, int x)
@@ -28,6 +28,6 @@ reversing(a, i);
 }
 else
 {
-_putchar(*(ptr + i));
+break;
 }
 }
