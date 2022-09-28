@@ -13,7 +13,7 @@ void printlen(char len, int x);
 int _strlen_recursion(char *s)
 {
 int x = strlen(s);
-chae len[];
+char len[];
 
 sprintf(len, x);
 
