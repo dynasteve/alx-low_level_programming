@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 #include <string.h>
 /**
   * _print_rev_recursion - Prints a string in reverse
@@ -17,11 +16,17 @@ reversing(s, x);
 
 void reversing(char *a, int x)
 {
-int i;
+int i = x;
 char *ptr = NULL;
 ptr = a;
-for(i = x - 1; i < 0; i--)
+if (i >= 0)
 {
-printf("%d", *(ptr + i));
+_putchar(*(ptr + i));
+i--;
+reversing(s, i);
+}
+else
+{
+_putchar(*(ptr + i));
 }
 }
