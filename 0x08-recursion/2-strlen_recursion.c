@@ -1,6 +1,8 @@
 #include "main.h"
 #include <string.h>
 
+void printlen(int *x);
+
 /**
   * _strlen_recursion - Prints a string length
   * @s: the string
@@ -33,6 +35,8 @@ ptr = len;
 if (x > 0)
 {
 _putchar(*(ptr + x--))
+x--;
+printlen(x);
 }
 else
 {
