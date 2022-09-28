@@ -6,11 +6,6 @@
   * @a: s passes to a for reversing
   * @x: integer for iterations
   *
-  * Reversing - This is the recursing function
-  * @a: s passes to a for reversing
-  * @x: integer for iterations
-  * Description: reversing and Reversing Recurses itself to print the string in reverse order
-  *
   * Return: Nothing.
   */
 void reversing(char *a, int x);
@@ -19,7 +14,14 @@ void _print_rev_recursion(char *s)
 int x = strlen(s);
 reversing(s, x - 1);
 }
-
+/**
+  * reversing - This is the recursing function
+  * @a: s passes to a for reversing
+  * @x: integer for iterations
+  * Description: reversing Recurses itself to print the string in reverse
+  * Return: Nothing
+  */
+  
 void reversing(char *a, int x)
 {
 int i = x;
