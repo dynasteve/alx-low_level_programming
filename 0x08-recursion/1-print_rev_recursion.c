@@ -2,7 +2,7 @@
 #include <string.h>
 /**
   * _print_rev_recursion - Prints a string in reverse
-  * reversing - This is the recursing function
+  * Reversing - This is the recursing function
   * @s: the string
   * @a: s passes to a for reversing
   * @x: integer for iterations
