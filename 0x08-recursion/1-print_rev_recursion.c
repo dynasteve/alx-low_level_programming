@@ -3,7 +3,7 @@
 /**
   * _print_rev_recursion - Prints a string in reverse
   * @s: the string
-  * @a: s passes to a for reversing
+  * @a: @s passes to a for reversing
   * @x: integer for iterations
   *
   * Return: Nothing.
@@ -16,12 +16,12 @@ reversing(s, x - 1);
 }
 /**
   * reversing - This is the recursing function
-  * @a: s passes to a for reversing
+  * @a: @s passes to a for reversing
   * @x: integer for iterations
   * Description: reversing Recurses itself to print the string in reverse
   * Return: Nothing
   */
-  
+
 void reversing(char *a, int x)
 {
 int i = x;
