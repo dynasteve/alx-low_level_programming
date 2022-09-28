@@ -17,7 +17,7 @@ reversing(s, x);
 
 void reversing(char *a, int x)
 {
-int *ptr = NULL;
+char *ptr = NULL;
 ptr = a;
 int i;
 for(i = x - 1; i < 0; i--)
