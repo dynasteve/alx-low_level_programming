@@ -5,14 +5,14 @@
   * reversing - This is the recursing function
   * @s: the string
   * @a: s passes to a for reversing
-  *
+  * @x: integer for iterations
   * Return: Nothing.
   */
 void reversing(char *a, int x);
 void _print_rev_recursion(char *s)
 {
 int x = strlen(s);
-reversing(s, x - 1);
+reversing(s, x - 2);
 }
 
 void reversing(char *a, int x)
