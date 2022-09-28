@@ -24,7 +24,7 @@ printlen(x);
   * Return: Nothing.
   */
 
-void printlen(int *x)
+void printlen(int x)
 {
 char len[];
 int *ptr = NULL;
